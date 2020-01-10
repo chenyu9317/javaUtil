@@ -1,3 +1,7 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.regex.PatternSyntaxException;
+
 public static String stringFilter(String str) throws PatternSyntaxException {
   // 只允许字母和数字
   // String   regEx  =  "[^a-zA-Z0-9]";
